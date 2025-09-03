@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Micky Store - Online Shopping</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="nav-belt">
+            <div class="nav-left">
+                <div class="nav-logo">
+                    <span class="logo-text">micky store</span>
+                </div>
+                <div class="nav-location">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <span class="location-text">Deliver to</span>
+                        <span class="location-name">New York 10001</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="nav-search">
+                <select class="search-category">
+                    <option>All</option>
+                    <option>Electronics</option>
+                    <option>Fashion</option>
+                    <option>Home</option>
+                </select>
+                <input type="text" class="search-input" placeholder="Search Micky Store">
+                <button class="search-btn"><i class="fas fa-search"></i></button>
+            </div>
+            
+            <div class="nav-right">
+                <div class="nav-signin">
+                    <span>Hello, Sign in</span>
+                    <span>Account & Lists</span>
+                </div>
+                <div class="nav-orders">
+                    <span>Returns</span>
+                    <span>& Orders</span>
+                </div>
+                <div class="nav-cart">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                    <span>Cart</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="nav-main">
+            <div class="nav-menu">
+                <i class="fas fa-bars"></i>
+                <span>All</span>
+            </div>
+            <ul class="nav-items">
+                <li><a href="#">Today's Deals</a></li>
+                <li><a href="#">Customer Service</a></li>
+                <li><a href="#">Gift Cards</a></li>
+                <li><a href="#">Sell</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="hero-banner">
+            <div class="banner-content">
+                <h1>Welcome to Micky Store</h1>
+                <p>Discover amazing deals on millions of products</p>
+                <button class="cta-button">Shop Now</button>
+            </div>
+        </section>
+
+        <section class="categories">
+            <h2>Shop by Category</h2>
+            <div class="category-grid">
+                <div class="category-card">
+                    <img src="https://via.placeholder.com/300x200/007185/ffffff?text=Electronics" alt="Electronics">
+                    <h3>Electronics</h3>
+                    <p>Latest gadgets and tech</p>
+                </div>
+                <div class="category-card">
+                    <img src="https://via.placeholder.com/300x200/232F3E/ffffff?text=Fashion" alt="Fashion">
+                    <h3>Fashion</h3>
+                    <p>Trending styles for everyone</p>
+                </div>
+                <div class="category-card">
+                    <img src="https://via.placeholder.com/300x200/FF9900/ffffff?text=Home" alt="Home">
+                    <h3>Home & Garden</h3>
+                    <p>Everything for your home</p>
+                </div>
+                <div class="category-card">
+                    <img src="https://via.placeholder.com/300x200/146EB4/ffffff?text=Books" alt="Books">
+                    <h3>Books</h3>
+                    <p>Millions of books & more</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-products">
+            <h2>Featured Products</h2>
+            <div class="products-grid" id="products-container">
+            </div>
+        </section>
+
+        <section class="deals-section">
+            <h2>Today's Deals</h2>
+            <div class="deals-grid">
+                <div class="deal-card">
+                    <div class="deal-badge">30% OFF</div>
+                    <img src="https://via.placeholder.com/200x200/FF6B6B/ffffff?text=Deal+1" alt="Deal 1">
+                    <h4>Wireless Headphones</h4>
+                    <div class="price">
+                        <span class="original-price">$99.99</span>
+                        <span class="sale-price">$69.99</span>
+                    </div>
+                </div>
+                <div class="deal-card">
+                    <div class="deal-badge">25% OFF</div>
+                    <img src="https://via.placeholder.com/200x200/4ECDC4/ffffff?text=Deal+2" alt="Deal 2">
+                    <h4>Smart Watch</h4>
+                    <div class="price">
+                        <span class="original-price">$199.99</span>
+                        <span class="sale-price">$149.99</span>
+                    </div>
+                </div>
+                <div class="deal-card">
+                    <div class="deal-badge">40% OFF</div>
+                    <img src="https://via.placeholder.com/200x200/45B7D1/ffffff?text=Deal+3" alt="Deal 3">
+                    <h4>Laptop Bag</h4>
+                    <div class="price">
+                        <span class="original-price">$49.99</span>
+                        <span class="sale-price">$29.99</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Get to Know Us</h4>
+                <ul>
+                    <li><a href="#">About Micky Store</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Press Releases</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Make Money with Us</h4>
+                <ul>
+                    <li><a href="#">Sell products</a></li>
+                    <li><a href="#">Become an Affiliate</a></li>
+                    <li><a href="#">Advertise Your Products</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Let Us Help You</h4>
+                <ul>
+                    <li><a href="#">Your Account</a></li>
+                    <li><a href="#">Your Orders</a></li>
+                    <li><a href="#">Shipping Rates</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-logo">micky store</div>
+            <div class="footer-copyright">© 2024, Micky Store, Inc.</div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
